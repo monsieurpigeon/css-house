@@ -1,0 +1,35 @@
+*{
+    background-color: lightblue;
+}
+
+.house {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+}
+
+.roof {
+    width: 0; 
+  height: 0;
+  margin: auto;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 150px solid brown;
+}
+
+.prewalls {
+    width: 300px;
+    height: 10px;
+    margin: auto;
+    background-color: darkgoldenrod;
+}
+
+.walls {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color: yellow;
+}
