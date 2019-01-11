@@ -28,8 +28,41 @@
 }
 
 .walls {
+    position: relative;
     width: 300px;
     height: 200px;
     margin: auto;
     background-color: yellow;
 }
+
+.window {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+.windowSquare {
+    width: 48%;
+    height: 48%;
+    margin: 1%;
+    background-image: linear-gradient(to right, white, aqua);
+    
+}
+
+.door {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90px;
+    height: 150px;
+    margin: 20px;
+    background-color: brown
+}
+
